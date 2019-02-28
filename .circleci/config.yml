@@ -26,7 +26,7 @@ jobs:
     docker:
       - image: google/cloud-sdk
     environment:
-      - PROJECT_NAME: "MyFirstProject"
+      - PROJECT_NAME: "hacknight"
       - GOOGLE_PROJECT_ID: "trusty-shine-233108"
       - GOOGLE_COMPUTE_ZONE: "asia-east1-a"
       - GOOGLE_CLUSTER_NAME: "hacknightvol4-cluster"
